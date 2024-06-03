@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f9f9f9;
+    margin: 0;
+}
+
+header {
+    background-color: #6b9fff;
+    color: white;
+    padding: 20px;
+}
+
+#confetti-button {
+    background-color: #ffffff;
+    color: #6b9fff;
+    border: 2px solid #6b9fff;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#confetti-button:hover {
+    background-color: #0004ff;
+    color: #ffffff;
+}
+
+.album {
+    margin: 20px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    margin: 10px;
+}
+
+.photo img {
+    max-width: 200px;
+    border: 3px solid #ff6b6b;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
